@@ -1,0 +1,46 @@
+import{c as t,j as e}from"./index-Gsu7soNi.js";import{B as o}from"./button-BX5QPHq1.js";import{C as l}from"./credit-card-Bj9iKP6Y.js";import{P as d}from"./piggy-bank-jE-NPJoZ.js";import{W as i,B as m}from"./wallet-CVZvuP3v.js";import{A as h}from"./arrow-right-Bv0Yr2kf.js";import"./index-CGyB8LHc.js";/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=[["rect",{x:"2",y:"4",width:"20",height:"16",rx:"2",key:"izxlao"}],["path",{d:"M10 4v4",key:"pp8u80"}],["path",{d:"M2 8h20",key:"d11cs7"}],["path",{d:"M6 4v4",key:"1svtjw"}]],p=t("AppWindow",x);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=[["path",{d:"M3 3v16a2 2 0 0 0 2 2h16",key:"c24i48"}],["path",{d:"m19 9-5 5-4-4-3 3",key:"2osh9i"}]],u=t("ChartLine",g);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const y=[["path",{d:"M10 2v2",key:"7u0qdc"}],["path",{d:"M14 2v2",key:"6buw04"}],["path",{d:"M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1",key:"pwadti"}],["path",{d:"M6 2v2",key:"colzsn"}]],N=t("Coffee",y);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const j=[["circle",{cx:"8",cy:"8",r:"6",key:"3yglwk"}],["path",{d:"M18.09 10.37A6 6 0 1 1 10.34 18",key:"t5s6rm"}],["path",{d:"M7 6h1v4",key:"1obek4"}],["path",{d:"m16.71 13.88.7.71-2.82 2.82",key:"1rbuyh"}]],b=t("Coins",j);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const v=[["path",{d:"M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z",key:"1f1r0c"}]],k=t("Diamond",v);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const f=[["path",{d:"M2 7v10",key:"a2pl2d"}],["path",{d:"M6 5v14",key:"1kq3d7"}],["rect",{width:"12",height:"18",x:"10",y:"3",rx:"2",key:"13i7bc"}]],w=t("GalleryHorizontalEnd",f);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const C=[["path",{d:"M6 3h12",key:"ggurg9"}],["path",{d:"M6 8h12",key:"6g4wlu"}],["path",{d:"m6 13 8.5 8",key:"u1kupk"}],["path",{d:"M6 13h3",key:"wdp6ag"}],["path",{d:"M9 13c6.667 0 6.667-10 0-10",key:"1nkvk2"}]],M=t("IndianRupee",C);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const _=[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",key:"oel41y"}],["path",{d:"m9 12 2 2 4-4",key:"dzmm74"}]],S=t("ShieldCheck",_);/**
+ * @license lucide-react v0.482.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const I=[["circle",{cx:"8",cy:"21",r:"1",key:"jimo8o"}],["circle",{cx:"19",cy:"21",r:"1",key:"13723u"}],["path",{d:"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12",key:"9zh506"}]],$=t("ShoppingCart",I),H=()=>{const r=[{icon:p,title:"1. Easy Enrollment",description:"Sign up through the Bharat Bachat app or any partnered UPI platform to start your savings journey."},{icon:l,title:"2. Spend Normally",description:"Continue making UPI payments for your daily expenses - no change in your spending habits required."},{icon:d,title:"3. Automatic Savings",description:"Watch your wealth grow as we automatically save a small percentage from each transaction."},{icon:i,title:"4. Choose Your Growth Path",description:"Select from multiple investment options to grow your accumulated savings."}],n=[{icon:$,title:"Essentials",examples:"Groceries, Utilities",percentage:"2.5%",color:"text-green-500",bgColor:"bg-green-500/10"},{icon:N,title:"Comforts",examples:"Dining, Entertainment",percentage:"5%",color:"text-blue-500",bgColor:"bg-blue-500/10"},{icon:k,title:"Luxuries",examples:"Premium Products",percentage:"10%",color:"text-purple-500",bgColor:"bg-purple-500/10"}],c=[{icon:u,title:"Interest-Bearing Account",description:"Earn fixed interest rates similar to Fixed Deposits"},{icon:b,title:"Mutual Funds",description:"Invest in diversified schemes based on your risk appetite"},{icon:w,title:"24K Gold",description:"Accumulate gold as an investment or cultural asset"}];return e.jsx("section",{className:"py-20 bg-gray-100",id:"how-it-works",children:e.jsxs("div",{className:"container mx-auto px-4 max-w-6xl",children:[e.jsxs("div",{className:"text-center max-w-3xl mx-auto mb-16",children:[e.jsx("h1",{className:"text-4xl font-bold mb-6",children:"How Bharat Bachat Works"}),e.jsx("p",{className:"text-lg text-muted-foreground",children:"Transform your everyday transactions into a wealth-building journey with our intelligent saving system."})]}),e.jsx("div",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16",children:r.map((s,a)=>e.jsx("div",{className:"bg-background p-6 rounded-lg border hover:border-primary transition-all duration-300",children:e.jsxs("div",{className:"flex flex-col items-center text-center gap-4",children:[e.jsx("div",{className:"p-3 bg-primary/10 rounded-lg",children:e.jsx(s.icon,{className:"w-6 h-6 text-primary"})}),e.jsx("h3",{className:"font-semibold",children:s.title}),e.jsx("p",{className:"text-sm text-muted-foreground",children:s.description})]})},a))}),e.jsxs("div",{className:"bg-secondary/10 p-8 rounded-lg mb-16",children:[e.jsx("h2",{className:"text-2xl font-bold mb-8 text-center",children:"Smart Transaction Categories"}),e.jsx("div",{className:"grid grid-cols-1 md:grid-cols-3 gap-8",children:n.map((s,a)=>e.jsx("div",{className:"bg-background p-6 rounded-lg border",children:e.jsxs("div",{className:"flex flex-col items-center text-center gap-4",children:[e.jsx("div",{className:`p-3 rounded-lg ${s.bgColor}`,children:e.jsx(s.icon,{className:`w-6 h-6 ${s.color}`})}),e.jsx("h3",{className:"font-semibold",children:s.title}),e.jsx("p",{className:"text-sm text-muted-foreground",children:s.examples}),e.jsx("div",{className:`text-xl font-bold ${s.color}`,children:s.percentage})]})},a))})]}),e.jsxs("div",{className:"bg-background p-8 rounded-lg border mb-16",children:[e.jsx("h2",{className:"text-2xl font-bold mb-6 text-center",children:"See How It Works"}),e.jsx("div",{className:"max-w-2xl mx-auto space-y-4",children:e.jsxs("div",{className:"flex items-center justify-between p-4 border rounded-lg",children:[e.jsxs("div",{className:"flex items-center gap-4",children:[e.jsx(M,{className:"w-6 h-6 text-primary"}),e.jsxs("div",{children:[e.jsx("p",{className:"font-semibold",children:"Grocery Purchase"}),e.jsx("p",{className:"text-sm text-muted-foreground",children:"Essential Category"})]})]}),e.jsxs("div",{className:"text-right",children:[e.jsx("p",{className:"font-semibold",children:"₹1,000"}),e.jsx("p",{className:"text-sm text-green-500",children:"Saves ₹25 (2.5%)"})]})]})})]}),e.jsxs("div",{className:"mb-16",children:[e.jsx("h2",{className:"text-2xl font-bold mb-8 text-center",children:"Grow Your Savings"}),e.jsx("div",{className:"grid grid-cols-1 md:grid-cols-3 gap-8",children:c.map((s,a)=>e.jsx("div",{className:"bg-background p-6 rounded-lg border hover:border-primary transition-all duration-300",children:e.jsxs("div",{className:"flex flex-col items-center text-center gap-4",children:[e.jsx("div",{className:"p-3 bg-primary/10 rounded-lg",children:e.jsx(s.icon,{className:"w-6 h-6 text-primary"})}),e.jsx("h3",{className:"font-semibold",children:s.title}),e.jsx("p",{className:"text-sm text-muted-foreground",children:s.description})]})},a))})]}),e.jsx("div",{className:"bg-secondary/10 p-8 rounded-lg mb-16",children:e.jsxs("div",{className:"grid grid-cols-1 md:grid-cols-3 gap-8",children:[e.jsxs("div",{className:"flex items-center gap-4",children:[e.jsx(m,{className:"w-6 h-6 text-primary shrink-0"}),e.jsx("p",{className:"text-sm",children:"AI-powered spending analysis and insights"})]}),e.jsxs("div",{className:"flex items-center gap-4",children:[e.jsx(S,{className:"w-6 h-6 text-primary shrink-0"}),e.jsx("p",{className:"text-sm",children:"Instant access to emergency funds"})]}),e.jsxs("div",{className:"flex items-center gap-4",children:[e.jsx(i,{className:"w-6 h-6 text-primary shrink-0"}),e.jsx("p",{className:"text-sm",children:"Customizable saving percentages"})]})]})}),e.jsx("div",{className:"text-center",children:e.jsxs(o,{size:"lg",className:"gap-2",children:["Start Saving Today",e.jsx(h,{className:"w-4 h-4"})]})})]})})};export{H as default};
