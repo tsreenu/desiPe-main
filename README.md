@@ -1,54 +1,101 @@
-# React + TypeScript + Vite
+# Desipe Finance — Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Corporate website for **Desipe Finance Private Limited**, parent of ShramStack and Bharat Bachat.
+Built with **Vite + React + React Router**. Shares the ShramStack visual identity (Sora / DM Sans / JetBrains Mono, navy + blue-purple-teal-amber palette).
 
-Currently, two official plugins are available:
+Pages: Home, Products, About, Contact.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install
+npm run dev        # opens http://localhost:5173
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Build for production
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm run build      # outputs static files to ./dist
+npm run preview    # preview the production build locally
 ```
+
+The `dist/` folder is a plain static site — deploy it anywhere.
+
+## Deploy
+
+This is a single-page app, so the host must rewrite all routes to `index.html`.
+Config files for the three common hosts are already included.
+
+### Firebase Hosting (recommended — same as ShramStack)
+```bash
+# one time
+npm install -g firebase-tools
+firebase login
+# set your project id in .firebaserc (replace REPLACE_WITH_YOUR_FIREBASE_PROJECT_ID)
+npm run build
+firebase deploy --only hosting
+```
+`firebase.json` already points to `dist` and rewrites all routes to `index.html`.
+
+### Vercel
+Import the repo. Build command `npm run build`, output dir `dist`.
+`vercel.json` handles SPA rewrites automatically.
+
+### Netlify
+Build command `npm run build`, publish dir `dist`.
+`public/_redirects` handles SPA fallback automatically.
+
+## Before going live — edit these
+
+- **Contact form** (`src/pages/Contact.jsx`) is front-end only. Wire `send()` to your
+  inbox/CRM (e.g. a Formspree endpoint, a Firebase function, or your API).
+- **Email / address** placeholders: `hello@desipefinance.com`, Nizampet Hyderabad —
+  search & replace with the real ones (in `Contact.jsx` and `Footer.jsx`).
+- **Advocacy copy** in `src/pages/About.jsx` is deliberately careful (no live case
+  numbers, no direct causation claims). Adjust to taste before publishing.
+
+## Structure
+
+```
+src/
+  main.jsx              # entry + BrowserRouter
+  App.jsx               # routes, scroll-to-top, scroll-reveal
+  styles.css            # full design system (one file)
+  components/
+    Navbar.jsx
+    Footer.jsx
+    StackCard.jsx       # the animated four-layer hero signature
+    PhoneMockup.jsx     # variant="shramstack" | "bharatbachat"
+    Sections.jsx        # PageHeader + CTABand (shared)
+  pages/
+    Home.jsx  Products.jsx  About.jsx  Contact.jsx
+```
+
+To change the stack content (layers, statuses, copy), edit the arrays at the top of
+`Home.jsx` and `Products.jsx` — the components map over them.
+
+---
+
+## PayU resubmission checklist
+
+The site now covers the standard payment-aggregator website requirements:
+
+- [x] Privacy Policy — `/privacy`
+- [x] Terms & Conditions — `/terms`
+- [x] Cancellation & Refund Policy + service delivery — `/refund`
+- [x] Pricing page — `/pricing`
+- [x] Contact Us (email, phone, registered office, Grievance Officer) — `/contact`
+- [x] All policy links working in the footer ("Legal" column)
+- [x] Legal entity name + CIN in footer
+- [x] No "waitlist / coming soon" language; operational CTAs (Login, Pricing, Get started)
+
+**Fill these real values before resubmitting (search for the bracketed placeholders):**
+- Registered office address — in `Contact.jsx` and `Privacy.jsx`
+- Phone number — in `Contact.jsx`
+- Real subscription prices — in `Pricing.jsx` (currently EXAMPLE values)
+- Confirm the refund window in `Refund.jsx` matches your PayU agreement
+- Point the `Login` button (`APP_URL` in `Navbar.jsx`) to the correct product login
+
+**Have a lawyer review the policy pages** before they go live — these are solid
+standard drafts, but a fintech entity should get them checked, especially the
+refund terms and data/UPI clauses.
