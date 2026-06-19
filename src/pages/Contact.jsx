@@ -34,7 +34,7 @@ export default function Contact() {
             </div>
             <div className="contact-item">
               <div className="contact-icon">📞</div>
-              <div><div className="ci-label">Phone</div><div className="ci-text">[+91 — to be inserted]</div></div>
+              <div><div className="ci-label">Phone</div><div className="ci-text">+91-9030417269</div></div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">📍</div>
