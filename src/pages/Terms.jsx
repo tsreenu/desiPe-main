@@ -48,7 +48,7 @@ export default function Terms() {
       <p>These Terms are governed by the laws of India. Subject to applicable law, the courts at Hyderabad, Telangana shall have jurisdiction.</p>
 
       <h2>12. Contact</h2>
-      <p>For questions about these Terms, email <a href="mailto:hello@desipefinance.com">hello@desipefinance.com</a>.</p>
+      <p>For questions about these Terms, email <a href="mailto:support@desipefin.com">support@desipefin.com</a>.</p>
     </LegalLayout>
   )
 }

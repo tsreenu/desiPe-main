@@ -30,23 +30,27 @@ export default function Contact() {
             <h4>Reach the team</h4>
             <div className="contact-item">
               <div className="contact-icon">✉️</div>
-              <div><div className="ci-label">Email</div><div className="ci-text"><a href="mailto:hello@desipefinance.com">hello@desipefinance.com</a></div></div>
+              <div><div className="ci-label">Email</div><div className="ci-text"><a href="mailto:support@desipefin.com">support@desipefin.com</a></div></div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">📞</div>
-              <div><div className="ci-label">Phone</div><div className="ci-text">[+91 — to be inserted]</div></div>
+              <div><div className="ci-label">Phone</div><div className="ci-text"><a href="tel:+918688076731">+91 8688076731</a></div></div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">📍</div>
-              <div><div className="ci-label">Registered office</div><div className="ci-text">Desipe Finance Private Limited<br />[Registered office address — to be inserted]<br />Telangana, India</div></div>
+              <div><div className="ci-label">Registered office</div><div className="ci-text">Desipe Finance Private Limited<br />Unit 203, 2nd Floor, Suite 104, SBR CV Towers,<br />Sector-I, Sy. No. 64, HUDA Techno Enclave,<br />Madhapur, Hyderabad – 500081, Telangana, India</div></div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">🛡️</div>
-              <div><div className="ci-label">Grievance Officer</div><div className="ci-text"><a href="mailto:grievance@desipefinance.com">grievance@desipefinance.com</a></div></div>
+              <div><div className="ci-label">Grievance Officer</div><div className="ci-text"><a href="mailto:support@desipefin.com">support@desipefin.com</a></div></div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">🏢</div>
               <div><div className="ci-label">CIN</div><div className="ci-text">U64990TS2025PTC196073 · DPIIT DIPP199558</div></div>
+            </div>
+            <div className="contact-item">
+              <div className="contact-icon">🧾</div>
+              <div><div className="ci-label">GSTIN</div><div className="ci-text">36AALCD5441N1Z7</div></div>
             </div>
           </div>
 

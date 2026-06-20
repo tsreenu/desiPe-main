@@ -9,7 +9,7 @@ const links = [
   { to: '/contact', label: 'Contact' },
 ]
 
-const APP_URL = 'https://shramstack-app.web.app'
+const APP_URL = 'https://shramstack.com'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -20,12 +20,7 @@ export default function Navbar() {
       <nav>
         <button className="nav-logo" onClick={() => navigate('/')} aria-label="Desipe Finance home">
           <span className="nav-logo-icon">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="4" y="16" width="16" height="3.2" rx="1.6" fill="#fff" opacity="0.95" />
-              <rect x="6" y="11.4" width="12" height="3.2" rx="1.6" fill="#fff" opacity="0.8" />
-              <rect x="8" y="6.8" width="8" height="3.2" rx="1.6" fill="#fff" opacity="0.65" />
-              <rect x="10" y="2.2" width="4" height="3.2" rx="1.6" fill="#fff" opacity="0.5" />
-            </svg>
+            <img src="/assets/desipe-mark.png" alt="Desipe Finance" />
           </span>
           <span className="nav-brand">
             Desipe<span>Finance</span>

@@ -51,15 +51,15 @@ export default function Privacy() {
       <p>In accordance with applicable Indian law, the Grievance Officer can be reached at:</p>
       <div className="legal-box">
         <p><strong>Grievance Officer — Desipe Finance Private Limited</strong></p>
-        <p>Email: <a href="mailto:grievance@desipefinance.com">grievance@desipefinance.com</a></p>
-        <p>Address: [Registered office address — to be inserted]</p>
+        <p>Email: <a href="mailto:support@desipefin.com">support@desipefin.com</a></p>
+        <p>Address: Unit 203, 2nd Floor, Suite 104, SBR CV Towers, Sector-I, Sy. No. 64, HUDA Techno Enclave, Madhapur, Hyderabad – 500081, Telangana, India</p>
       </div>
 
       <h2>9. Changes to this policy</h2>
       <p>We may update this Privacy Policy from time to time. The "Last updated" date above reflects the latest revision. Material changes will be communicated through the Services.</p>
 
       <h2>10. Contact us</h2>
-      <p>Questions about this policy? Email <a href="mailto:hello@desipefinance.com">hello@desipefinance.com</a> or use our <a href="/contact">Contact</a> page.</p>
+      <p>Questions about this policy? Email <a href="mailto:support@desipefin.com">support@desipefin.com</a> or use our <a href="/contact">Contact</a> page.</p>
     </LegalLayout>
   )
 }
