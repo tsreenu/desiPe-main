@@ -110,11 +110,11 @@ export default function Home() {
       <section className="impact">
         <div className="section-tag reveal">Why this matters</div>
         <div className="section-title reveal">We don't theorise about informal work. We came from it.</div>
-        <p className="section-sub reveal">Desipe was founded by a former factory-floor worker turned production manager turned labour-rights advocate. The mission isn't a market thesis — it's lived.</p>
+        <p className="section-sub reveal">Desipe was founded by a former factory-floor worker turned production manager turned founder. The mission isn't a market thesis — it's lived.</p>
         <div className="impact-grid">
           <div className="impact-card reveal"><div className="impact-num">~90%</div><div className="impact-label">of India's workforce is informal — largely invisible to formal finance</div></div>
           <div className="impact-card reveal"><div className="impact-num teal">500+</div><div className="impact-label">workers our founder managed on the floor before building the fix</div></div>
-          <div className="impact-card reveal"><div className="impact-num amber">64</div><div className="impact-label">RTIs filed in a multi-year push for worker rights and transparency</div></div>
+          <div className="impact-card reveal"><div className="impact-num amber">₹0</div><div className="impact-label">what every worker pays to be on the stack — always free</div></div>
           <div className="impact-card reveal"><div className="impact-num">4</div><div className="impact-label">layers of a single stack — from a day's work to credit</div></div>
         </div>
       </section>

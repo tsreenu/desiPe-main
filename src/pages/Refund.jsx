@@ -27,14 +27,14 @@ export default function Refund() {
       </ul>
 
       <h2>5. How to request a refund or cancellation</h2>
-      <p>Email <a href="mailto:billing@desipefinance.com">billing@desipefinance.com</a> from your registered email with your account details and reason. We aim to respond within 2 business days.</p>
+      <p>Email <a href="mailto:support@desipefin.com">support@desipefin.com</a> from your registered email with your account details and reason. We aim to respond within 2 business days.</p>
 
       <div className="legal-callout">
         <strong>Note:</strong> The exact refund window and terms should match what you have agreed with your payment partner and any plan-specific terms. Confirm these details before publishing.
       </div>
 
       <h2>6. Contact</h2>
-      <p>Questions about billing or this policy? Reach us at <a href="mailto:hello@desipefinance.com">hello@desipefinance.com</a> or via the <a href="/contact">Contact</a> page.</p>
+      <p>Questions about billing or this policy? Reach us at <a href="mailto:support@desipefin.com">support@desipefin.com</a> or via the <a href="/contact">Contact</a> page.</p>
     </LegalLayout>
   )
 }
