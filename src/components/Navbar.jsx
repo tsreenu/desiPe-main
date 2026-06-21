@@ -9,7 +9,7 @@ const links = [
   { to: '/contact', label: 'Contact' },
 ]
 
-const APP_URL = 'https://dev.shramstack.com'
+const APP_URL = 'http://dev.shramstack.com'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
