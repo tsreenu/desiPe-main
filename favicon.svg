@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB703" />
+      <stop offset="50%" stop-color="#FF007F" />
+      <stop offset="100%" stop-color="#9013FE" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer D-ring with transparent inner hole -->
+  <path 
+    d="M0,0 L256,0 A256,256 0 0,1 256,512 L0,512 Z M100,100 L100,412 L256,412 A156,156 0 0,0 256,100 Z" 
+    fill="url(#dGrad)" 
+    fill-rule="evenodd" 
+  />
+  
+  <!-- Inner solid F -->
+  <path 
+    d="M145,145 L330,145 L330,215 L225,215 L225,250 L305,250 L305,320 L225,320 L225,367 L145,367 Z" 
+    fill="#3E0098" 
+  />
+</svg>
